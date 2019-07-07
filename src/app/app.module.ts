@@ -5,20 +5,24 @@ import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { ModalComponent } from './modal/modal.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 import { DiagramEditorComponent } from './diagram-editor/diagram-editor.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
-import { OrgChartComponent } from './orgChart/orgChart.component';
-import { DynamicPortsComponent } from './dynamicPorts/dynamicPorts.component';
+import { HomeComponent } from './home/home.component';
+import { DynamicPortsComponent } from './dynamic-ports/dynamic-ports.component';
+import { OrgChartComponent } from './org-chart/org-chart.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       ModalComponent,
+      DropdownDirective,
       DiagramEditorComponent,
       HeaderComponent,
-      OrgChartComponent,
-      DynamicPortsComponent
+      HomeComponent,
+      DynamicPortsComponent,
+      OrgChartComponent
    ],
    imports: [
       BrowserModule,

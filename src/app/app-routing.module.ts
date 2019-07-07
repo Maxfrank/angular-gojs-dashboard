@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { OrgChartComponent } from './orgChart/orgChart.component';
-import { DynamicPortsComponent } from './dynamicPorts/dynamicPorts.component';
+import { HomeComponent } from './home/home.component';
+import { OrgChartComponent } from './org-chart/org-chart.component';
+import { DynamicPortsComponent } from './dynamic-ports/dynamic-ports.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '',component: HomeComponent },
   { path: 'orgchart', component: OrgChartComponent },
   { path: 'dynamicports', component: DynamicPortsComponent }
 ];

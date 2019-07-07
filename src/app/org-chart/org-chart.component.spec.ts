@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { DynamicPortsComponent } from './dynamicPorts.component';
+import { OrgChartComponent } from './org-chart.component';
 
-describe('DynamicPortsComponent', () => {
-  let component: DynamicPortsComponent;
-  let fixture: ComponentFixture<DynamicPortsComponent>;
+describe('OrgChartComponent', () => {
+  let component: OrgChartComponent;
+  let fixture: ComponentFixture<OrgChartComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DynamicPortsComponent ]
+      declarations: [ OrgChartComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DynamicPortsComponent);
+    fixture = TestBed.createComponent(OrgChartComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
