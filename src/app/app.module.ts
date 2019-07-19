@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { DynamicPortsComponent } from './dynamic-ports/dynamic-ports.component';
 import { OrgChartComponent } from './org-chart/org-chart.component';
+import { UnlessDirective } from './shared/unless.directive';
 
 @NgModule({
    declarations: [
@@ -22,7 +23,8 @@ import { OrgChartComponent } from './org-chart/org-chart.component';
       HeaderComponent,
       HomeComponent,
       DynamicPortsComponent,
-      OrgChartComponent
+      OrgChartComponent,
+      UnlessDirective
    ],
    imports: [
       BrowserModule,
